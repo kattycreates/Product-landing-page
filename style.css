@@ -1,0 +1,104 @@
+#header{
+  background:rgba(255,255,255,0.4);
+  width:100%;
+  height:100px;
+  display:flex;
+  position:fixed;
+  border:1px solid;
+  
+}
+#header-img{
+  height:100%;
+}
+#brand{
+  margin-left:-30px;
+  margin-top:40px;
+  font-family:sans-serif;
+  text-transform:uppercase;
+}
+#nav-bar{
+  color:black;
+  margin-top:40px;
+  margin-left:58%;
+
+  
+}
+body{
+  background:rgba(66,214,155,0.5)
+}
+@media (max-width:300px)
+{
+  width:100%;
+  height:100%;
+}
+.nav-link{
+  font-family:sans-serif;
+  color:black;
+  text-decoration:none;
+  font-size:20px;
+}
+.nav-link:hover{
+  text-decoration:underline
+}
+#New-arrival{
+  margin: auto;
+  padding-top:100px;
+  width: 50%;
+  font-family:sans-serif;
+  text-align:center;
+  
+}
+#picks{
+  text-align:center;
+  font-family:sans-serif;
+}
+.top-picks{
+  width:200px;
+  height:200px;
+}
+#services{
+  text-align:center;
+  width:100%;
+}
+#button{
+  width:50%;
+  height:30px;
+  background:rgba(86,99,212,1);
+   border-radius:10px;
+  line-height:0px;
+}
+#form{
+  font-size:20px;
+  font-family:sans-serif;
+  text-align:center;
+  line-height:40px;
+}
+#submit{
+  height:40px;
+  width:10%;
+  background:rgba(86,99,212,1);
+font-family:sans-serif;
+  font-size:20px;
+  border-radius:10px;
+}
+#email{
+  width:30%;
+  height:30px;
+}
+#shop{
+  font-family:sans-serif;
+  text-decoration:none;
+  font-size:20px;
+  color:black;
+ 
+}
+#button:hover{
+background:rgba(106,121,255,1);
+}
+#submit:hover{
+  background:rgba(106,121,255,1);
+}
+#bts{
+margin:auto;
+width:100%;
+}
